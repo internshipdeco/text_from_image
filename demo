@@ -279,4 +279,5 @@ warped = cv2.warpPerspective(im, M, (w, h))
 cv2.imshow("Frame", im)
 cv2.imshow("Perspective transformation", warped)
 #cv2.imshow("so", im)
-
+cv2.waitKey(0)
+cv2.destroyAllWindows()
